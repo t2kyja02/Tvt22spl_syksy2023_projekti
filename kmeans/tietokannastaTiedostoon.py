@@ -62,7 +62,7 @@ data[:,:] = records[:][:]
 #with open(fileName, 'w', encoding='UTF8', newline='') as f:
 with open(fileName, 'w', newline='') as f:
     writer = csv.writer(f)
-    for i in range(300):
+    for i in range(nbrOfMeas):
         #f.write(str(data[i,:]))  # kirjoitetaan rivi kerrallaan matriisista
         #f.write(str(records[i][:]))
         writer.writerow(data[i,:])

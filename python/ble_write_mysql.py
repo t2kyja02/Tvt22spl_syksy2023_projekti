@@ -2,8 +2,10 @@ import asyncio
 from bleak import BleakClient
 import mysql.connector
 import struct
+import time
 
 counter = 0
+notification = 0
 data_list = []
 
 # Connect to the MySQL server
@@ -20,11 +22,11 @@ def on_disconnect(client):
 def handle_notification(sender: int, data: bytearray):
     global counter
     global data_list
+    global notification
 
     # Convert bytes to int
     data = struct.unpack('i', data)[0]
     data_list.append(data)
-
     counter += 1
 
 
@@ -37,8 +39,12 @@ def handle_notification(sender: int, data: bytearray):
         cursor.execute(add_data, (data_tuple))
         db.commit()
 
+        notification += 1
+        print(notification)
         counter = 0
         data_list = []
+        
+        
 
 
 async def run(address, loop):

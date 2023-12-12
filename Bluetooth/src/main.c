@@ -138,11 +138,8 @@ void send_data_thread(void)
 
 		/* Send notification, the function sends notifications only if a client is subscribed */
 		my_lbs_send_sensor_notify(m.x);
-		k_sleep(K_MSEC(100));
 		my_lbs_send_sensor_notify(m.y);
-		k_sleep(K_MSEC(100));
 		my_lbs_send_sensor_notify(m.z);
-		k_sleep(K_MSEC(100));
 		my_lbs_send_sensor_notify(direction);
 		
 		k_sleep(K_MSEC(NOTIFY_INTERVAL));
