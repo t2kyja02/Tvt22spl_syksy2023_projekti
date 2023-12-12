@@ -1,0 +1,39 @@
+Katso luentovideo ohjelmistolisensseistä mobiiliohjelmoinnin projektikurssilta (2021) 
+
+ 
+
+K: Avoimen lähdekoodin yhteydessä puhutaan usein “free” joka kuvaa tässä yhteydessä vapautta, ei välttämättä ilmaisuutta. Mistä on kyse? 
+
+V: -Neljä perusvapautta avoimen lähdekoodin ohjelmistojen kanssa 
+
+1. Vapaus levittää ohjelmaa 
+
+2. Vapaus tutkia ja muokata ohjelman toiminnallisuutta omiin tarpeisiin 
+
+3. Vapaus suorittaa ohjelma mihin tahansa tarkoitukseen 
+
+4. Vapaus parantaa sekä julkaista ohjelma. 
+
+ 
+
+K: Mikä lisenssi on hyvä jos kehittäjä ei välitä miten ohjelmaa käytetään? 
+
+V: -MIT-lisenssi 
+
+ 
+
+K: Mikä lisenssiperhe on hyvä valinta jos haluat tarjota vapaana valokuvan, grafiikkaa, jonkinlaisen kirjallisen tuotoksen yms? 
+
+V: -Creative Commons-lisenssiperhe 
+
+ 
+
+K: Mitä tarkoitetaan copyleft-lisenssillä? 
+
+V: -copyleft-lisenssin alainen teos sekä muokkaukset on jaettava samalla tavalla kuin alkuperäinen. Copyleft-lisenssillä pyritään takaamaan avoimuus sekä vapaus. 
+
+ 
+
+K: Mitä on MIT/BSD-tyyliset lisenssit? 
+
+V: -Avoimen lähdekoodin lisenssejä, jotka ovat vapaita ja yksinkertaisia. Käyttöoikeudessa ei ole rajoituksia, muokkauksista voi tehdä joko suljetun tai avoimen lähdekoodin versioita sekä levittäminen ja jakaminen on sallittua. 
