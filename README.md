@@ -15,6 +15,7 @@ Tietokantaan tallentuvaan dataan on TCP-sokettirajapinta ja yksinkertainen HTTP 
 
 ## Kmeans algoritmi
 Kmeans algoritmin tarkoitus on opettaa satunnaisesti valittuja pisteitä liikkumaan kuuden data klusterin keskiarvon sijaintiin (ks. kuva alla). Vasemalla näkyy vihreinä palloina mitatun datan sijainti ja mustina palloina satunnaisesti valittujen pisteiden viimeinen sijainti (klusterien sisällä) ja oikealla pisteiden etäisyyden virheen suppeneminen.
+
 ![Figure_1](https://github.com/t2kyja02/Tvt22spl_syksy2023_projekti/assets/123270538/8558bf2c-75f1-4281-828a-6f7fff6686e4 "Kmeans plot")
 
 ## Konfuusiomatriisi
