@@ -80,6 +80,7 @@ with open("TL_Project_Week6/src/datapoints.h", 'w') as file:
 
 fig = plt.figure(figsize=(10, 5))
 ax1 = fig.add_subplot(121, projection='3d')
+ax1.set_title('3D-plot')
 
 # Plot data points in each cluster
 for i in range(data.shape[0]):
@@ -93,7 +94,7 @@ for i in range(4):
 ax2 = fig.add_subplot(122)
 ax2.plot(iterations, convergence)
 ax2.set_xlabel('Iteration')
-ax2.set_ylabel('Sum of Distances')
+ax2.set_ylabel('Error')
 ax2.set_title('Convergence Plot')
 
 plt.tight_layout()
